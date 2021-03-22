@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-ble-zbtprinter"
-        version="1.0">
+        id="pl.simplymobile.zebra-printer"
+        version="1.0.1">
 
     <name>ZebraBluetoothPrinter</name>
     <description>A Cordova/Phonegap driver for Zebra bluetooth printers</description>
-    <license>Apache</license>
+    <license>Apache 2.0</license>
+    <keywords>cordova,bixolonprint</keywords>
+
+    <author>SimplyMobile</author>
+
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
@@ -17,10 +21,6 @@
 
     <!-- android -->
     <platform name="android">
-
-        <!--<framework src="com.fasterxml.jackson.core:jackson-annotations:2.2.3" type="gradleReference" />
-        <framework src="com.fasterxml.jackson.core:jackson-core:2.2.3" type="gradleReference" />
-        <framework src="com.fasterxml.jackson.core:jackson-databind:2.2.3" type="gradleReference" />-->
 
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.BLUETOOTH"/>

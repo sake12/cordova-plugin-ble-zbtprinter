@@ -1,34 +1,25 @@
 {
-  "name": "cordova-plugin-ble-zbtprinter",
-  "version": "1.4.0",
-  "description": "A Cordova/Phonegap driver for Zebra bluetooth printers",
-  "cordova": {
-    "id": "cordova-plugin-ble-zbtprinter",
-    "platforms": [
-      "android"
-    ]
+  "name": "@sake12/cordova-plugin-ble-zbtprinter",
+  "version": "1.0.1",
+  "description": "A Cordova plugin for Zebra bluetooth printers",
+  "main": "zbtprinter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter.git"
+    "url": "git+https://github.com/sake12/cordova-plugin-ble-zbtprinter.git"
   },
   "keywords": [
-    "ecosystem:cordova",
-    "cordova-android",
-    "zebra-printer",
-    "Bluetooth",
-    "Zebra"
+    "cordova",
+    "android",
+    "ionic",
+    "zebra"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "author": "Prakash Satyani",
-  "license": "Apache",
+  "author": "sake12",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter/issues"
+    "url": "https://github.com/sake12/cordova-plugin-ble-zbtprinter/issues"
   },
-  "homepage": "https://github.com/prakashsatyani/cordova-plugin-ble-zbtprinter#readme"
+  "homepage": "https://github.com/sake12/cordova-plugin-ble-zbtprinter#readme"
 }
