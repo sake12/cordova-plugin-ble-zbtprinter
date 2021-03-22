@@ -1,6 +1,6 @@
 {
   "name": "@sake12/cordova-plugin-ble-zbtprinter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Cordova plugin for Zebra bluetooth printers",
   "main": "zbtprinter.js",
   "scripts": {
